@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/rhdeck/react-native-privacy-snapshot.git", :tag => "#{s.version}" }
   s.source_files  = "ios/**/*.{h,m,swift}"
 
-  s.dependency 'React'
+  s.dependency 'React-Core'
   s.frameworks = 'UIKit'
 end
